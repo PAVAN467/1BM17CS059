@@ -9,7 +9,7 @@ class Student:
     def validate1(self):
         if(self.age<=20):
             print("age  not eligible")
-            return 0
+            return 
         while True:
             if self.marks<0 or self.marks>100:
                 self.marks=int(input("enter the valid marks"))
